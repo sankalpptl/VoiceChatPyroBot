@@ -2,17 +2,16 @@
 from pyrogram import filters
 
 # Get these two from https://my.telegram.org
-API_ID = 1234567
-API_HASH = "ab1c23def45fg67890h123i45678j9kl"
+API_ID = 2500594
+API_HASH = "6704f1885e4cc07762e1684128da398d"
 
 # Get this from @Botfather
-TOKEN = "1234567890:ABCdEFgHij1KlMNop_QrStuVWxyzuA-EmXI"
+TOKEN = "1890611626:AAGgIHjx8cAX7RCWVHOvX6BfZLGMzvnp8sE"
 
 # The IDs of the users which can stream, skip, pause and change volume
 SUDO_USERS = [
-    383407735,
-    951435494,
-    1392620345
+    255965711,
+    158661264
 ]
 
 # The ID of the group where your bot streams
@@ -28,7 +27,7 @@ LOG = True
 LANG = "en"
 
 # Max video duration allowed for user downloads in minutes
-DUR_LIMIT = 5
+DUR_LIMIT = 10
 
 # No need to touch the following.
 LOG_GROUP = GROUP if LOG else None
